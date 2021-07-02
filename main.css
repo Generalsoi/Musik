@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat'
+}
+
+/*************************/
+/********Navbar **********/
+/*************************/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-image: url(./images/bg-img.png);
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .btn{
+    width: 175px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: white;
+    color: #381DDB;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+/********************************/
+/****** Introduction section ****/
+/********************************/
+.introduction{
+    background-image: url(./images/bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 7% 15%;
+}
